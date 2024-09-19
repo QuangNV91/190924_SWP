@@ -14,8 +14,8 @@ function App() {
         <Route path="*" element={<Navigate to="/login" />} />
       </Routes>
     </BrowserRouter>
-    //hihi
   );
 }
+// xin chao moi nguoi 
 
 export default App;

@@ -3,7 +3,7 @@ import { Form, Input, Button, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
 
 const LoginForm = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   const onFinish = (values) => {
     // Xử lý đăng nhập ở đây (chưa cần gọi API)
     // Ví dụ: Hiển thị thông báo và chuyển hướng đến trang admin
