@@ -11,9 +11,10 @@ function App() {
         <Route path="/login" element={<LoginForm />} />
         <Route path="/register" element={<RegisterForm />} />
         <Route path="/admin" element={<AdminPage />} />
-        <Route path="*" element={<Navigate to="/login" />} /> 
+        <Route path="*" element={<Navigate to="/login" />} />
       </Routes>
     </BrowserRouter>
+    //hihi
   );
 }
 
