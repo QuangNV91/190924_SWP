@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import LoginForm from './components/Auth/LoginForm';
 import RegisterForm from './components/Auth/RegisterForm';
 import AdminPage from './pages/AdminPage';
+import Manager from './pages/Manager';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/register" element={<RegisterForm />} />
         <Route path="/admin" element={<AdminPage />} />
         <Route path="*" element={<Navigate to="/login" />} />
+        <Route path="/manager" element={<Manager />} />
       </Routes>
     </BrowserRouter>
   );
