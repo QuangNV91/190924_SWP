@@ -16,6 +16,6 @@ function App() {
     </BrowserRouter>
   );
 }
-// xin chao moi nguoi 
+// xin chao moi nguoi chao cai con me may
 
 export default App;
